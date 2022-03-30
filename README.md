@@ -12,6 +12,7 @@ week 2:
 Recall：24.96 AP：31.3
 只在layer3加入，然后用layer4精炼,最后的激活函数Relu：recall1：31.67 AP：37.68
 sigmoid:recall1:56.06 AP:60.77
+去除了沙漏结构，改为5x5conv加1x1conv：recall1：54.92 AP:69.74
 
 the idea record:
 use decentralize attention to replace the structure of LPN.
