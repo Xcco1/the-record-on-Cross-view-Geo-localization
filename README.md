@@ -33,7 +33,12 @@ LPN：
 ![image](https://user-images.githubusercontent.com/61531491/161378292-5d0458d8-7024-4571-94e3-a1e3b3f2be33.png)
 
 联想到之前一篇reid的工作中，动态规划匹配的方法
+
 ![image](https://user-images.githubusercontent.com/61531491/161389049-6b5ed36f-30a7-4772-8523-8be3f12cef98.png)
+
+以及一种基于PCB的软划分方法
+
+![image](https://user-images.githubusercontent.com/61531491/161389226-153cef4c-436c-4716-b70f-e1b56fb37785.png)
 
 
 2.从植被入手，尽量让注意力不要在植被上
