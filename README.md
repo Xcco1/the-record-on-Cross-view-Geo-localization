@@ -20,3 +20,7 @@ ours：
 LPN:
 ![image](https://user-images.githubusercontent.com/61531491/161293484-d2f78512-34e3-46b3-b189-9acbf05c9be9.png)
 
+在layer3和layer都加入这种局部注意力
+recall1：75.95 AP：79.22
+
+
