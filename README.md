@@ -26,7 +26,9 @@ recall1：75.95 AP：79.22
 没有残差recall1：75.15 AP：78.34
 
 LPN：
-1.每层之间的特征不一定能配上对
+1.每层之间的特征不一定能配上对，最外层的特征并没带来很多涨点
+
+![image](https://user-images.githubusercontent.com/61531491/161387638-2a735c7c-3be7-4809-b371-cdbe1e8d8e4a.png)
 
 ![image](https://user-images.githubusercontent.com/61531491/161378292-5d0458d8-7024-4571-94e3-a1e3b3f2be33.png)
 
