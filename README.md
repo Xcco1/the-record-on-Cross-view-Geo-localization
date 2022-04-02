@@ -23,4 +23,4 @@ LPN:
 在layer3和layer都加入这种局部注意力同时接入残差
 recall1：75.95 AP：79.22
 
-没有残差recall1： AP：
+没有残差recall1：75.15 AP：78.34
