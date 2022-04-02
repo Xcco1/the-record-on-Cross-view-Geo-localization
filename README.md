@@ -25,6 +25,9 @@ recall1：75.95 AP：79.22
 
 没有残差recall1：75.15 AP：78.34
 
-LPN的问题：	1.每层之间的特征不一定能配上对
+LPN：
+1.每层之间的特征不一定能配上对
 
 ![image](https://user-images.githubusercontent.com/61531491/161378292-5d0458d8-7024-4571-94e3-a1e3b3f2be33.png)
+
+2.采用avgpooling 能够解决角度旋转的问题
