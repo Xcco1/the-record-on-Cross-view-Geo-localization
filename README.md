@@ -32,6 +32,8 @@ LPN：
 
 ![image](https://user-images.githubusercontent.com/61531491/161378292-5d0458d8-7024-4571-94e3-a1e3b3f2be33.png)
 
-2.采用avgpooling 能够解决角度旋转的问题
+联想到之前一篇reid的工作中，动态规划匹配的方法
+![image](https://user-images.githubusercontent.com/61531491/161389049-6b5ed36f-30a7-4772-8523-8be3f12cef98.png)
 
-3.从植被入手，尽量让注意力不要在植被上
+
+2.从植被入手，尽量让注意力不要在植被上
