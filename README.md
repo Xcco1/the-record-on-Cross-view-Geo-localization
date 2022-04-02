@@ -31,3 +31,5 @@ LPN：
 ![image](https://user-images.githubusercontent.com/61531491/161378292-5d0458d8-7024-4571-94e3-a1e3b3f2be33.png)
 
 2.采用avgpooling 能够解决角度旋转的问题
+
+3.从植被入手，尽量让注意力不要在植被上
