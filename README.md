@@ -14,7 +14,8 @@ input:
 ![image](https://user-images.githubusercontent.com/61531491/161293648-557f64a3-f144-4ffc-9403-a1f0282014c8.png)
 
 ours：
-![image](https://user-images.githubusercontent.com/61531491/161293387-faf710c4-b69a-404f-95dd-f4c36845da77.png)
+![image](https://user-images.githubusercontent.com/61531491/161362630-f1c72463-1144-4e4f-99c9-febfdbcd95e7.png)
+
 
 LPN:
 ![image](https://user-images.githubusercontent.com/61531491/161293484-d2f78512-34e3-46b3-b189-9acbf05c9be9.png)
