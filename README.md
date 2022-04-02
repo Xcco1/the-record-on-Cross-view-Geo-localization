@@ -24,5 +24,7 @@ LPN:
 recall1：75.95 AP：79.22
 
 没有残差recall1：75.15 AP：78.34
-LPN的问题：
+
+LPN的问题：	1.每层之间的特征不一定能配上对
+
 ![image](https://user-images.githubusercontent.com/61531491/161369135-6658cb8e-02ef-41a4-92e6-9e58d7445f79.png)
