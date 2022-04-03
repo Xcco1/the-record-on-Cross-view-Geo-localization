@@ -40,5 +40,8 @@ LPN：
 
 ![image](https://user-images.githubusercontent.com/61531491/161389226-153cef4c-436c-4716-b70f-e1b56fb37785.png)
 
+采用这种软划分方法：
+训练其中的part classifier 60个epoch，然后在完整训练50个epoch
+recall1： AP：
 
 2.从植被入手，尽量让注意力不要在植被上
