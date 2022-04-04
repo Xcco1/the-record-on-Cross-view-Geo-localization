@@ -48,3 +48,9 @@ recall1：56.5 AP：61.88
 仔细检验发现，在代码中只是把2048个通道分为4部分，而不是把区域分为4部分，那是不是可以从LPN的4part入手，学习shuffle各个part直接哪些feature来做refine
 
 2.从植被入手，尽量让注意力不要在植被上
+
+week2：
+在resnet50的featuremap上，统计每个像素位置的weight，得到一张16x16的heatmap，在用conv3x3去得到4个channel，然后在4个channel上再做avgpool
+![image](https://user-images.githubusercontent.com/61531491/161483697-c0fb0943-b7df-4522-828b-aacbc5e55da8.png)
+
+
