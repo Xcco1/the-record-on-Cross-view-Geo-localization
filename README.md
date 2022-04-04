@@ -53,4 +53,5 @@ week2：
 在resnet50的featuremap上，统计每个像素位置的weight，得到一张16x16的heatmap，在用conv3x3去得到4个channel，然后在4个channel上再做avgpool
 ![image](https://user-images.githubusercontent.com/61531491/161483697-c0fb0943-b7df-4522-828b-aacbc5e55da8.png)
 
-
+用LPN的预训练，recall1：58.02 AP：62.96
+重头训练，recall1：48.22 AP：53.33
