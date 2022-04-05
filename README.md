@@ -50,8 +50,11 @@ recall1：56.5 AP：61.88
 2.从植被入手，尽量让注意力不要在植被上
 
 week2：
-在resnet50的featuremap上，统计每个像素位置的weight，得到一张16x16的heatmap，在用conv3x3去得到4个channel，然后在4个channel上再做avgpool
+在resnet50的featuremap上，统计每个像素位置的weight，得到一张16x16的heatmap，在用conv去得到4个channel，然后在4个channel上再做avgpool
 ![image](https://user-images.githubusercontent.com/61531491/161483697-c0fb0943-b7df-4522-828b-aacbc5e55da8.png)
 
 用LPN的预训练，recall1：58.02 AP：62.96
 重头训练，recall1：48.22 AP：53.33
+
+对四通道采用paration loss: recall1:63.55 AP:67.97
+![image](https://user-images.githubusercontent.com/61531491/161669126-b275de95-4022-4e36-9b99-a2432f8ba3cf.png)
