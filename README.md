@@ -64,6 +64,7 @@ paration loss只对方差进行了监督，同时因为log在零点的梯度大�
 ![image](https://user-images.githubusercontent.com/61531491/161888746-8e4a28af-ba36-4666-99ee-ec1834b8473f.png)
 
 recall：71.38 AP:75.29
-![image](https://user-images.githubusercontent.com/61531491/161877667-8587497d-9e3f-400e-85d6-baca20f67a90.png)
+![image](https://user-images.githubusercontent.com/61531491/161889517-f5f2fca3-109c-4dab-b764-51f2b785c31e.png)
+
 
 
