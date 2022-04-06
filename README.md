@@ -59,8 +59,11 @@ week2：
 对四通道采用paration loss: recall1:63.55 AP:67.97
 ![image](https://user-images.githubusercontent.com/61531491/161669126-b275de95-4022-4e36-9b99-a2432f8ba3cf.png)
 
-paration loss只对方差进行了监督，同时因为log在零点的梯度大远反而小，将其改为了x^3,同时x不再是方差，而是（方差/均值） recall1：64.06 AP：68.41
+paration loss只对方差进行了监督，同时因为log在零点的梯度大远反而小，将其改为：
 
+![image](https://user-images.githubusercontent.com/61531491/161888746-8e4a28af-ba36-4666-99ee-ec1834b8473f.png)
+
+recall：71.38 AP:75.29
 ![image](https://user-images.githubusercontent.com/61531491/161877667-8587497d-9e3f-400e-85d6-baca20f67a90.png)
 
 
