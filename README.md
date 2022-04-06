@@ -57,7 +57,9 @@ week2：
 重头训练，recall1：48.22 AP：53.33
 
 对四通道采用paration loss: recall1:63.55 AP:67.97
+
 ![image](https://user-images.githubusercontent.com/61531491/161669126-b275de95-4022-4e36-9b99-a2432f8ba3cf.png)
+![image](https://user-images.githubusercontent.com/61531491/161895746-c8b158d4-8323-47a0-b0e3-7ae222414fec.png)
 
 paration loss只对方差进行了监督，同时因为log在零点的梯度大远反而小，将其改为：
 
