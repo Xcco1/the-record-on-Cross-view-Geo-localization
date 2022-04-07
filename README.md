@@ -71,6 +71,12 @@ recall：71.38 AP:75.29
 将loss改为0.5次方：
 recall1：68.8 AP：72.92
 
+
+![image](https://user-images.githubusercontent.com/61531491/162189504-e218867e-4a79-4b4f-aa8d-8ed030dd4f74.png)
+
+recall1：69.09 AP：72.2
 修改rpp结构从2层卷积换到3层和4层均掉点严重。
+
+将pixel summary的操作换为1x1conv,recall1:69.07 AP:73.17
 
 
