@@ -79,4 +79,5 @@ recall1：69.09 AP：72.2
 
 将pixel summary的操作换为1x1conv,recall1:69.07 AP:73.17
 
+将avgpool换成maxpool，recall1:70.54 AP:74.17
 
