@@ -68,6 +68,7 @@ paration loss只对方差进行了监督，同时因为log在零点的梯度大�
 recall：71.38 AP:75.29
 ![image](https://user-images.githubusercontent.com/61531491/161889517-f5f2fca3-109c-4dab-b764-51f2b785c31e.png)
 
+week3：
 将loss改为0.5次方：
 recall1：68.8 AP：72.92
 
@@ -80,4 +81,7 @@ recall1：69.09 AP：72.2
 将pixel summary的操作换为1x1conv,recall1:69.07 AP:73.17
 
 将avgpool换成maxpool，recall1:70.54 AP:74.17
+
+再在其中加入non-local block,采用预训练，recall1:61.91 AP:66.57
+![image](https://user-images.githubusercontent.com/61531491/162572647-b8922c0c-a833-4d2c-85f0-910b6f9378ac.png)
 
