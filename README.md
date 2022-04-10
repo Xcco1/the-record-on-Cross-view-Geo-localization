@@ -82,9 +82,4 @@ recall1：69.09 AP：72.2
 
 将avgpool换成maxpool，recall1:70.54 AP:74.17
 
-将non-local block加在resnet的输出上,采用预训练，recall1:61.91 AP:66.57
-![image](https://user-images.githubusercontent.com/61531491/162572647-b8922c0c-a833-4d2c-85f0-910b6f9378ac.png)
-
-![image](https://user-images.githubusercontent.com/61531491/162572822-4354fe43-315a-4fb7-b35f-70c511d93256.png)
-将non-local block加在pixel summary之后，采用预训练，
-
+loss换为e^-x,avgpool，recall1： AP：
