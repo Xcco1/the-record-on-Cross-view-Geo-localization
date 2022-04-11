@@ -83,3 +83,5 @@ recall1：69.09 AP：72.2
 将avgpool换成maxpool，recall1:70.54 AP:74.17
 
 loss换为e^-x,avgpool，recall1： AP：
+
+在rpp中加入non local block,在两层卷积之后，recall1： AP：
