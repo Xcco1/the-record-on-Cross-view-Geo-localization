@@ -87,5 +87,9 @@ recall1：69.09 AP：72.2
 4个part可视化
 ![image](https://user-images.githubusercontent.com/61531491/162727553-8179c6d9-d9fe-4fda-8714-70802981c4cf.png)
 
-生成了LPN的4张partial mask,将rpp生成的4张heatmap与其做smoothL1loss，recall1：，AP：
-4个part可视化
+生成了LPN的4张partial mask,将rpp生成的4张heatmap与其做smoothL1loss+paration loss，recall1：61.75，AP：66.6
+
+4个part可视化：
+![image](https://user-images.githubusercontent.com/61531491/162949111-2c06420e-4e9d-43cb-9f6c-42e7ea62d8cd.png)
+
+
