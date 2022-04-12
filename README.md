@@ -86,3 +86,6 @@ recall1：69.09 AP：72.2
 在rpp中加入non local block,在两层卷积之后，recall1：70.11 AP：74.10
 4个part可视化
 ![image](https://user-images.githubusercontent.com/61531491/162727553-8179c6d9-d9fe-4fda-8714-70802981c4cf.png)
+
+生成了LPN的4张partial mask,将rpp生成的4张heatmap与其做smoothL1loss，recall1：，AP：
+4个part可视化
