@@ -96,4 +96,5 @@ recall1：69.09 AP：72.2
 4个part可视化：
 ![image](https://user-images.githubusercontent.com/61531491/163002878-63943f6c-d941-48de-936b-c7eaaa82537f.png)
 
-还是觉得是从pixel summary这边，信息量丢失了太多了可能，从resnet的输出开始，用了3层卷积将2048逐步压缩到4维，采用smoothL1loss+paration loss，
+还是觉得是从pixel summary这边，信息量丢失了太多了可能，从resnet的输出开始，用了3层卷积将2048逐步压缩到4维，采用smoothL1loss+paration loss，recall1：64.69 AP:69.04
+
