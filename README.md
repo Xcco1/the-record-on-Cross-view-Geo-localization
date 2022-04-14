@@ -100,3 +100,5 @@ recall1：69.09 AP：72.2
 
 ![image](https://user-images.githubusercontent.com/61531491/163090347-628d767b-3eb7-4187-b4ea-ce59121d38fd.png)
 
+
+采用DAN中的方法，多头注意力。
