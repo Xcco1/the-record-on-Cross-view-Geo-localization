@@ -104,3 +104,5 @@ recall1：69.09 AP：72.2
 采用3个CBAM注意力模块去生成3张mask，效果很烂。
 week4:
 回溯到之前，从layer4探出分支3层卷积生成mask,在lpn的基础上只训练这个分支100轮，然后训练整个网络200轮，recall1:43.01 AP:47.38
+![image](https://user-images.githubusercontent.com/61531491/164039896-f232b698-e88f-48df-8aed-fa46a3586b97.png)
+
