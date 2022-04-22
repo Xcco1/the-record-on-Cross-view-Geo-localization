@@ -102,7 +102,9 @@ recall1：69.09 AP：72.2
 
 
 采用3个CBAM注意力模块去生成3张mask，效果很烂。
+
 week4:
-回溯到之前，从layer4探出分支3层卷积生成mask,在lpn的基础上只训练这个分支100轮，然后训练整个网络200轮，recall1:43.01 AP:47.38
-![image](https://user-images.githubusercontent.com/61531491/164039896-f232b698-e88f-48df-8aed-fa46a3586b97.png)
+
+只分2块，一块为中心一块为周边，在layer2-4采用Unified Attention Fusion Module（mean和max在part1和part2中分开计算），然后将part1和part2特征contact在一起在输出加入bnn，
+center loss权重越大，越关注在中心，lamda=0.001，recall1：73.29 AP：76.74
 
