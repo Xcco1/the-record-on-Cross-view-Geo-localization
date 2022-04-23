@@ -106,7 +106,7 @@ recall1：69.09 AP：72.2
 week4:
 
 只分2块，一块为中心一块为周边，在layer2-4采用Unified Attention Fusion Module（mean和max在part1和part2中分开计算），然后将part1和part2特征contact在一起在输出加入bnn，
-center loss权重越大，越关注在中心，lamda=0.001，recall1：73.29 AP：76.74,lamda=0.0005,recall1:70.74 AP:74.37
+center loss权重越大，越关注在中心，lamda=0.001，recall1：73.29 AP：76.74,lamda=0.0005,recall1:70.74 AP:74.37,lamda=0.0001,recall1:74.13 AP:77.49
 
 gradcam for layer2，layer3，layer4
 ![image](https://user-images.githubusercontent.com/61531491/164746746-eefa42d2-494c-4e8e-93be-98956d7ed327.png)
