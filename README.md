@@ -115,3 +115,4 @@ gradcam for layer2，layer3，layer4
 
 ![image](https://user-images.githubusercontent.com/61531491/164959392-87ac760e-8b38-44b4-a51f-51a26fef2630.png)
 
+在part2采用GEMpooling，Recall1:62.50 AP:66.76
