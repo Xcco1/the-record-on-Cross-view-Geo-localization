@@ -111,3 +111,5 @@ center loss权重越大，越关注在中心，lamda=0.001，recall1：73.29 AP�
 gradcam for layer2，layer3，layer4
 ![image](https://user-images.githubusercontent.com/61531491/164746746-eefa42d2-494c-4e8e-93be-98956d7ed327.png)
 
+将part1和part2都单独采用loss，现在能够注意到周围的建筑，但是掉点很多
+
