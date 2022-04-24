@@ -113,3 +113,5 @@ gradcam for layer2，layer3，layer4
 
 将part1和part2都单独采用loss，现在能够注意到周围的建筑，但是掉点很多
 
+![image](https://user-images.githubusercontent.com/61531491/164959392-87ac760e-8b38-44b4-a51f-51a26fef2630.png)
+
