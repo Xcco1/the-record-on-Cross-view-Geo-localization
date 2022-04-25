@@ -116,3 +116,4 @@ gradcam for layer2，layer3，layer4
 ![image](https://user-images.githubusercontent.com/61531491/164959392-87ac760e-8b38-44b4-a51f-51a26fef2630.png)
 
 在part2采用GEMpooling，Recall1:62.50 AP:66.76
+猜想：当注意力在外侧时性能较差，是不是说明，网络还没有学习到外层环境和建筑物的关系，从而有点将其作为噪声的感觉，所以接下来的工作就是如何让网络学习这两者之间的关系
