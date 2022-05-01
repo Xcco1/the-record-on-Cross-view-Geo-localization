@@ -120,4 +120,5 @@ gradcam for layer2，layer3，layer4
 
 
 连不上服务器了，实验暂停，只记录实验想法：
+1.用FPN金字塔，替换backbone，以解决尺度变化带来的差异
 
