@@ -120,7 +120,7 @@ gradcam for layer2，layer3，layer4
 
 week5：
 将part1和part2经过GEMpooling后特征contact在一起后，经过一次conv1x1将两部分融合在一起，通道维度从4096压缩为2048,recall1:75.07  AP:78.36
-在part1和part2contact之后的特征上加入Barlow TwinsLoss,降低特征冗,recall1:79.56 AP:82.30
+在part1和part2contact之后的特征上加入Barlow TwinsLoss,降低特征冗,recall1:79.56 AP:82.30 and satelite->drone recall1::84.74  AP:76.72
 
 
 
