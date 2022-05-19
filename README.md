@@ -119,6 +119,9 @@ gradcam for layer2，layer3，layer4
 猜想：当注意力在外侧时性能较差，是不是说明，网络还没有学习到外层环境和建筑物的关系，从而有点将其作为噪声的感觉，所以接下来的工作就是如何让网络学习这两者之间的关系
 
 week5：
-将part1和part2特征contact在一起后，经过一次conv1x1将两部分融合在一起，通道维度从4096压缩为2048,recall1:75.07  AP:78.36
+将part1和part2经过GEMpooling后特征contact在一起后，经过一次conv1x1将两部分融合在一起，通道维度从4096压缩为2048,recall1:75.07  AP:78.36
+在part1和part2contact之后的特征上加入Barlow TwinsLoss,降低特征冗,recall1:79.56 AP:82.30
+
+
 
 
