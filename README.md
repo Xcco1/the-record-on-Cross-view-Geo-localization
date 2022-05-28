@@ -1,4 +1,12 @@
 # the-record-on-Cross-view-Geo-localization
+
+fianlly:
+the attention block is still testing...
+![image](https://user-images.githubusercontent.com/61531491/170816484-1ca41b4c-8971-4189-a9f6-5d14fd77b25f.png)
+
+
+
+
 Origin LPN:
 recall1:75.93 AP:79.14
 
