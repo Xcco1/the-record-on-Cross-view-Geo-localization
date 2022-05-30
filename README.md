@@ -1,8 +1,8 @@
 # the-record-on-Cross-view-Geo-localization
 
 fianlly:
-the attention block is still testing...
-![image](https://user-images.githubusercontent.com/61531491/170816484-1ca41b4c-8971-4189-a9f6-5d14fd77b25f.png)
+Drone->Satellite:Recall@1:82.84 AP:85.31 Satellite->Drone:Recall@1:88.45 AP:77.60
+![image](https://user-images.githubusercontent.com/61531491/170946763-e4a692bd-292b-40a6-9aca-7c9c07c12968.png)
 
 
 
